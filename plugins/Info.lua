@@ -509,8 +509,8 @@ return {
 	description = "User Infomation",
 	usage = {
 		user = {
-			"info: اطلاعات شما",
-			"info (reply): اطلاعات دیگران",
+			"/info: اطلاعات شما",
+			"/info (reply): اطلاعات دیگران",
 			},
 		sudo = {
 			"/info (id) (txt) : اعطای مقام",
@@ -518,11 +518,11 @@ return {
 			},
 		},
 	patterns = {
-		"^(/infodel) (.*)$",
-		"^(/info) ([^%s]+) (.*)$",
-		"^([Ii]nfo) (.*)$",
-		"^(info)$",
-		"^(Info)$",
+		"^[!/#](infodel) (.*)$",
+		"^[!/#](info) ([^%s]+) (.*)$",
+		"^[!/#]([Ii]nfo) (.*)$",
+		"^[!/#](info)$",
+		"^[!/#](Info)$",
 	},
 	run = run,
 }
