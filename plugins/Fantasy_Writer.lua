@@ -106,12 +106,12 @@ local function run(msg, matches)
 		a=a+1
 		result_text = result_text..a.."- "..result[a].."\n\n"
 	end
-	return result_text.."______________________________\nGrandex Bot"
+	return result_text.."______________________________\n@SignalTM"
 end
 
 return {
 	description = "Fantasy Writer",
-	usage = {"write [text] : زیبا نویسی",},
+	usage = {"/write [text] : زیبا نویسی",},
 	patterns = {
 		"^[!/#]([Ww]rite) (.*)",
 		"^[!/#]([Ww]rite)$",
