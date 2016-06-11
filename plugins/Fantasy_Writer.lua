@@ -1,5 +1,5 @@
 local function run(msg, matches)
-	if not is_mmod(msg) then
+	if not is_momod(msg) then
 		return "فقط برای مدیران"
 	end
 	if #matches < 2 then
